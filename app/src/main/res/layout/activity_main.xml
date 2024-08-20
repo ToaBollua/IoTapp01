@@ -95,7 +95,7 @@
         android:id="@+id/etNum2"
         android:layout_width="251dp"
         android:layout_height="70dp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="76dp"
         android:layout_marginBottom="8dp"
         android:autofillHints=""
         android:ems="10"

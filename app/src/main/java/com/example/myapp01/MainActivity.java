@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     result = num1 * num2;
                     break;
                 case '/':
-                    if (num2 == 0) {
+                    if (num2 == 0 || num1 == 0) {
                         Toast.makeText(this, "No se puede dividir por cero", Toast.LENGTH_SHORT).show();
                         return;
                     }
@@ -66,7 +66,12 @@ public class MainActivity extends AppCompatActivity {
                     return;
             }
 
-            tvResult.setText(String.format("%.2f", result));
+            if (result % 1 == 0) {
+                tvResult.setText(String.format("%.0f", result));
+            } else {
+                tv.Result.setText(String.format("½.2f", result));
+            }
+
         } catch (NumberFormatException e) {
             Toast.makeText(this, "Ingrese números válidos", Toast.LENGTH_SHORT).show();
         }
