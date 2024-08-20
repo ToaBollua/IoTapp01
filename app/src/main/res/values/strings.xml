@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyApp01</string>
+    <string name="resta">Resta</string>
+    <string name="resultado">Resultado</string>
+    <string name="suma">Suma</string>
+    <string name="division">Division</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="noInput">Seleccione la operacion que desea realizar</string>
+    <string name="segundo_n_mero">Segundo número</string>
+    <string name="primer_n_mero">Primer número</string>
 </resources>
