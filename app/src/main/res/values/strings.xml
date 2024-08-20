@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyApp01</string>
     <string name="resta">Resta</string>
-    <string name="resultado">Resultado</string>
+    <string name="resultado">0</string>
     <string name="suma">Suma</string>
     <string name="division">Division</string>
     <string name="multiplicacion">Multiplicacion</string>

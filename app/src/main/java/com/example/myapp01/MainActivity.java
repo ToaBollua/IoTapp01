@@ -1,5 +1,6 @@
 package com.example.myapp01;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnDivide).setOnClickListener(v -> performCalculation('/'));
     }
 
+    @SuppressLint("DefaultLocale")
     private void performCalculation(char operation) {
         try {
             double num1 = Double.parseDouble(etNum1.getText().toString());
